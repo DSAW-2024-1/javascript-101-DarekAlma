@@ -4,7 +4,7 @@ function sum(a, b) {
     return a+b;
   }
   else{
-    return "Los datos de entrada no son adecuados";
+    console.log("Los datos de entrada no son adecuados");
   }
   // Add your code here
 }
@@ -19,7 +19,7 @@ function factorial(n) {
     return resultadofacto
   }
   else{
-    return "Los datos de entrada no son adecuados";
+    console.log("Los datos de entrada no son adecuados");
   }
   // Add your code here
 }
@@ -34,7 +34,7 @@ function findLargest(arr) {
       }
     }
     else{
-      return "Los datos de entrada no son adecuados"
+      console.log("Los datos de entrada no son adecuados");     
     }
   }
   return mayornum;
@@ -54,7 +54,7 @@ function countVowels(str) {
     return numvocales;
   }
   else{
-    return "Los datos de entrada no son adecuados"
+    console.log("Los datos de entrada no son adecuados");
   }
   // Add your code here
 }
@@ -74,7 +74,7 @@ function isPrime(n) {
     return true;   
   }
   else{
-    return "Los datos de entrada no son adecuados"
+    console.log("Los datos de entrada no son adecuados");
   }
   // Add your code here
 }
