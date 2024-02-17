@@ -4,7 +4,7 @@ function sum(a, b) {
     return a+b;
   }
   else{
-    return "Tipo de dato no valido";
+    return console.log("Tipo de dato no valido");
   }
   // Add your code here
 }
